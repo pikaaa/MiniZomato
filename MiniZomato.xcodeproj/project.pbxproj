@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		990D26182327D2D800FD3422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990D26172327D2D800FD3422 /* AppDelegate.swift */; };
+		990D261A2327D2D800FD3422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990D26192327D2D800FD3422 /* ViewController.swift */; };
+		990D261D2327D2D800FD3422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990D261B2327D2D800FD3422 /* Main.storyboard */; };
+		990D26202327D2D800FD3422 /* MiniZomato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 990D261E2327D2D800FD3422 /* MiniZomato.xcdatamodeld */; };
+		990D26222327D2D900FD3422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990D26212327D2D900FD3422 /* Assets.xcassets */; };
+		990D26252327D2D900FD3422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990D26232327D2D900FD3422 /* LaunchScreen.storyboard */; };
+		990D262F2327E43A00FD3422 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990D262E2327E43A00FD3422 /* LocationViewModel.swift */; };
+		990D26352327EFA000FD3422 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990D26342327EFA000FD3422 /* Restaurants.swift */; };
+		990D263823280A0D00FD3422 /* RestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990D263723280A0D00FD3422 /* RestaurantsTableViewCell.xib */; };
+		990D263A23280D7900FD3422 /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990D263923280D7900FD3422 /* RestaurantsTableViewCell.swift */; };
+		994075BF232A723600606DE2 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994075BE232A723600606DE2 /* SearchViewModel.swift */; };
+		994075C2232A779D00606DE2 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994075C1232A779D00606DE2 /* CityModel.swift */; };
+		994075C5232A78EB00606DE2 /* NetworkWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994075C4232A78EB00606DE2 /* NetworkWrapper.swift */; };
+		99FC7910232A695A0049EC9D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FC790F232A695A0049EC9D /* SearchController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		990D26142327D2D800FD3422 /* MiniZomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniZomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		990D26172327D2D800FD3422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		990D26192327D2D800FD3422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		990D261C2327D2D800FD3422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		990D261F2327D2D800FD3422 /* MiniZomato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniZomato.xcdatamodel; sourceTree = "<group>"; };
+		990D26212327D2D900FD3422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990D26242327D2D900FD3422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		990D26262327D2D900FD3422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990D262E2327E43A00FD3422 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		990D26342327EFA000FD3422 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		990D263723280A0D00FD3422 /* RestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantsTableViewCell.xib; sourceTree = "<group>"; };
+		990D263923280D7900FD3422 /* RestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		994075BE232A723600606DE2 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		994075C1232A779D00606DE2 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		994075C4232A78EB00606DE2 /* NetworkWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWrapper.swift; sourceTree = "<group>"; };
+		99FC790F232A695A0049EC9D /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		990D26112327D2D800FD3422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		990D260B2327D2D800FD3422 = {
+			isa = PBXGroup;
+			children = (
+				990D26162327D2D800FD3422 /* MiniZomato */,
+				990D26152327D2D800FD3422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		990D26152327D2D800FD3422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990D26142327D2D800FD3422 /* MiniZomato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990D26162327D2D800FD3422 /* MiniZomato */ = {
+			isa = PBXGroup;
+			children = (
+				994075C3232A78DB00606DE2 /* Common */,
+				99FC790D232A69360049EC9D /* Search */,
+				990D262C2327E40800FD3422 /* Restaurant List */,
+				990D26172327D2D800FD3422 /* AppDelegate.swift */,
+				990D261B2327D2D800FD3422 /* Main.storyboard */,
+				990D26212327D2D900FD3422 /* Assets.xcassets */,
+				990D26232327D2D900FD3422 /* LaunchScreen.storyboard */,
+				990D26262327D2D900FD3422 /* Info.plist */,
+				990D261E2327D2D800FD3422 /* MiniZomato.xcdatamodeld */,
+			);
+			path = MiniZomato;
+			sourceTree = "<group>";
+		};
+		990D262C2327E40800FD3422 /* Restaurant List */ = {
+			isa = PBXGroup;
+			children = (
+				990D26332327EF8100FD3422 /* Model */,
+				990D26312327E7B600FD3422 /* View */,
+				990D262D2327E42000FD3422 /* View model */,
+			);
+			path = "Restaurant List";
+			sourceTree = "<group>";
+		};
+		990D262D2327E42000FD3422 /* View model */ = {
+			isa = PBXGroup;
+			children = (
+				990D262E2327E43A00FD3422 /* LocationViewModel.swift */,
+			);
+			path = "View model";
+			sourceTree = "<group>";
+		};
+		990D26312327E7B600FD3422 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				990D2636232809C100FD3422 /* TableCells */,
+				990D26192327D2D800FD3422 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		990D26332327EF8100FD3422 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				990D26342327EFA000FD3422 /* Restaurants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		990D2636232809C100FD3422 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				990D263723280A0D00FD3422 /* RestaurantsTableViewCell.xib */,
+				990D263923280D7900FD3422 /* RestaurantsTableViewCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		994075BD232A722300606DE2 /* View model */ = {
+			isa = PBXGroup;
+			children = (
+				994075BE232A723600606DE2 /* SearchViewModel.swift */,
+			);
+			path = "View model";
+			sourceTree = "<group>";
+		};
+		994075C0232A76F600606DE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				994075C1232A779D00606DE2 /* CityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		994075C3232A78DB00606DE2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				994075C4232A78EB00606DE2 /* NetworkWrapper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		99FC790D232A69360049EC9D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				994075C0232A76F600606DE2 /* Model */,
+				994075BD232A722300606DE2 /* View model */,
+				99FC790E232A693F0049EC9D /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		99FC790E232A693F0049EC9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99FC790F232A695A0049EC9D /* SearchController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		990D26132327D2D800FD3422 /* MiniZomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990D26292327D2D900FD3422 /* Build configuration list for PBXNativeTarget "MiniZomato" */;
+			buildPhases = (
+				990D26102327D2D800FD3422 /* Sources */,
+				990D26112327D2D800FD3422 /* Frameworks */,
+				990D26122327D2D800FD3422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniZomato;
+			productName = MiniZomato;
+			productReference = 990D26142327D2D800FD3422 /* MiniZomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		990D260C2327D2D800FD3422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Priyanka Sabhagani";
+				TargetAttributes = {
+					990D26132327D2D800FD3422 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 990D260F2327D2D800FD3422 /* Build configuration list for PBXProject "MiniZomato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 990D260B2327D2D800FD3422;
+			productRefGroup = 990D26152327D2D800FD3422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				990D26132327D2D800FD3422 /* MiniZomato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		990D26122327D2D800FD3422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990D263823280A0D00FD3422 /* RestaurantsTableViewCell.xib in Resources */,
+				990D26252327D2D900FD3422 /* LaunchScreen.storyboard in Resources */,
+				990D26222327D2D900FD3422 /* Assets.xcassets in Resources */,
+				990D261D2327D2D800FD3422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		990D26102327D2D800FD3422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990D26352327EFA000FD3422 /* Restaurants.swift in Sources */,
+				990D261A2327D2D800FD3422 /* ViewController.swift in Sources */,
+				994075BF232A723600606DE2 /* SearchViewModel.swift in Sources */,
+				990D26202327D2D800FD3422 /* MiniZomato.xcdatamodeld in Sources */,
+				99FC7910232A695A0049EC9D /* SearchController.swift in Sources */,
+				990D26182327D2D800FD3422 /* AppDelegate.swift in Sources */,
+				990D263A23280D7900FD3422 /* RestaurantsTableViewCell.swift in Sources */,
+				990D262F2327E43A00FD3422 /* LocationViewModel.swift in Sources */,
+				994075C5232A78EB00606DE2 /* NetworkWrapper.swift in Sources */,
+				994075C2232A779D00606DE2 /* CityModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		990D261B2327D2D800FD3422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990D261C2327D2D800FD3422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		990D26232327D2D900FD3422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990D26242327D2D900FD3422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		990D26272327D2D900FD3422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		990D26282327D2D900FD3422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990D262A2327D2D900FD3422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S272SVAKCK;
+				INFOPLIST_FILE = MiniZomato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pika.MiniZomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		990D262B2327D2D900FD3422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S272SVAKCK;
+				INFOPLIST_FILE = MiniZomato/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pika.MiniZomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990D260F2327D2D800FD3422 /* Build configuration list for PBXProject "MiniZomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990D26272327D2D900FD3422 /* Debug */,
+				990D26282327D2D900FD3422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990D26292327D2D900FD3422 /* Build configuration list for PBXNativeTarget "MiniZomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990D262A2327D2D900FD3422 /* Debug */,
+				990D262B2327D2D900FD3422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		990D261E2327D2D800FD3422 /* MiniZomato.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				990D261F2327D2D800FD3422 /* MiniZomato.xcdatamodel */,
+			);
+			currentVersion = 990D261F2327D2D800FD3422 /* MiniZomato.xcdatamodel */;
+			path = MiniZomato.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 990D260C2327D2D800FD3422 /* Project object */;
+}
